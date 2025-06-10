@@ -29,7 +29,10 @@ Face detection is a foundational task in computer vision with applications in se
    cd face-detection-opencv
 
 
-   # 🎵 Music Recommendation System
+
+
+
+## 🎵 Music Recommendation System
 
 A personalized music recommendation system that suggests songs based on user preferences using Machine Learning techniques such as Content-Based Filtering and Collaborative Filtering.
 
