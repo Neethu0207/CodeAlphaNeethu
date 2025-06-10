@@ -80,7 +80,6 @@ These objectives drive the development and iterative improvement of the music re
 - Scikit-learn for ML models
 - Surprise library (for collaborative filtering)
 - Matplotlib, Seaborn for visualizations
-- Streamlit (optional) for web deployment
 
 ## 📂 Dataset
 
