@@ -118,5 +118,40 @@ Example Sources:
 git clone https://github.com/your-username/music-recommendation-system.git
 cd music-recommendation-system
 
+
+
+## 🧠 Digit Recognition using TensorFlow (ReLU Activation)
+
+This project implements a digit recognition system using TensorFlow and the MNIST dataset. The model is a simple neural network that uses the ReLU (Rectified Linear Unit) activation function in its hidden layers for better performance and faster training.
+
+## 📌 Overview
+
+Handwritten digit recognition is a classic problem in the field of machine learning and computer vision. The objective is to correctly classify grayscale images of handwritten digits (0 to 9).
+
+This implementation is based on the TensorFlow deep learning framework and utilizes a fully connected neural network.
+
+## 🚀 Features
+
+- Utilizes the **MNIST dataset**.
+- Implements a **feed-forward neural network** using **ReLU** activation.
+- Uses **softmax** in the output layer for classification.
+- Achieves high accuracy on test data.
+- Clean and modular code for easy understanding and experimentation.
+
+## 🧰 Tech Stack
+
+- 🧠 TensorFlow
+- 🔢 NumPy
+- 📊 Matplotlib (optional - for visualization)
+- 🐍 Python 3.x
+
+## 📁 Project Structure
+
+
+```bash
+git clone https://github.com/your-username/digit-recognition-tensorflow.git
+cd digit-recognition-tensorflow
+
+
 ## Contributors
 Ballar Neethu Kumari
