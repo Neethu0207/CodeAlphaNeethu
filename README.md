@@ -111,12 +111,7 @@ Example Sources:
 - Precision@k, Recall@k
 - RMSE for predicted ratings
 
-## 🔧 How to Run
 
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/music-recommendation-system.git
-cd music-recommendation-system
 
 
 
