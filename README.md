@@ -120,6 +120,13 @@ cd music-recommendation-system
 
 
 
+
+
+
+
+
+
+
 ## 🧠 Digit Recognition using TensorFlow (ReLU Activation)
 
 This project implements a digit recognition system using TensorFlow and the MNIST dataset. The model is a simple neural network that uses the ReLU (Rectified Linear Unit) activation function in its hidden layers for better performance and faster training.
