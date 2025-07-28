@@ -122,6 +122,9 @@ Example Sources:
 
 
 
+
+
+
 ## 🧠 Digit Recognition using TensorFlow (ReLU Activation)
 
 This project implements a digit recognition system using TensorFlow and the MNIST dataset. The model is a simple neural network that uses the ReLU (Rectified Linear Unit) activation function in its hidden layers for better performance and faster training.
@@ -147,7 +150,106 @@ This implementation is based on the TensorFlow deep learning framework and utili
 - 📊 Matplotlib (optional - for visualization)
 - 🐍 Python 3.x
 
-## 📁 Project Structure
+
+
+
+
+
+
+
+
+
+
+## 🏦 Credit Scoring Model using Logistic Regression
+This project builds a Credit Scoring Prediction Model using Logistic Regression to classify individuals as potential credit defaulters or not, based on their historical and financial attributes.
+The Credit Scoring Model repository aims to build a predictive model for a bank, enabling data-driven lending decisions. This model utilizes the Logistic Regression classifier and decile methodology to formulate an effective lending strategy.
+
+## Problem Statement🎯 
+To develop a predictive model that identifies customers with high risk of credit default using logistic regression. This helps financial institutions make informed lending decisions.
+Banks and financial institutions often face challenges in assessing the creditworthiness of loan applicants. Traditional methods of credit scoring rely on historical data and statistical analysis to determine a borrower's credit score. However, these methods may not always be effective in predicting the likelihood of loan repayment accurately.
+
+## Solution Overview
+The Credit Scoring Model project offers a solution by leveraging machine learning techniques to predict the likelihood of loan repayment based on historical customer data. The project employs the Logistic Regression classifier, a popular algorithm for binary classification tasks, to build the predictive model. Additionally, it utilizes decile methodology to formulate business rules for accepting or rejecting new loan applications, thereby optimizing business profitability and market penetration.
+## 📁 Dataset Description
+The dataset contains 30 columns and includes information about customer credit history, inquiries, account statuses, and delinquencies. The key target is to predict the TARGET variable:
+
+TARGET: Binary target variable (1 = default, 0 = non-default)
+
+Sample features include:
+
+DerogCnt, CollectCnt: Counts of derogatory and collection events
+
+BanruptcyInd: Indicator of past bankruptcy
+
+InqCnt06, InqTimeLast: Recent credit inquiries
+
+TLTimeFirst, TLDel90Cnt24, TLOpenPct: Time and delinquency features
+
+Various percentage-based utilization and delinquency ratios
+
+## Key Features
+Utilizes Logistic Regression classifier for predictive modeling.
+Implements decile methodology to formulate lending strategy.
+Provides data-driven insights for making informed lending decisions.
+Offers a comprehensive toolkit with training datasets and Python source code for hands-on learning and reuse.
+Usage
+## ⚙️ Methodology
+Data Preprocessing
+
+Handle missing values (e.g., using median imputation)
+
+Normalize numerical features if needed
+
+Encode categorical variables (if present)
+
+Feature Selection
+
+Remove identifiers like ID
+
+Select relevant features using correlation and statistical significance
+
+Model Building
+
+Train-test split (e.g., 80/20)
+
+Apply logistic regression
+
+Evaluate using metrics: Accuracy, Precision, Recall, AUC
+
+Model Evaluation
+
+Confusion matrix
+
+ROC-AUC curve
+
+Precision-recall trade-off
+## 🛠️ Requirements
+bash
+Copy
+Edit
+pip install pandas numpy scikit-learn matplotlib seaborn
+## 📊 Results Summary
+Model: Logistic Regression
+
+Evaluation Metrics:
+
+Accuracy: 83%
+
+ROC-AUC: ~0.55%
+
+Key Findings:
+
+Features like TLDel90Cnt24, BanruptcyInd, CollectCnt were strong predictors.
+
+## 🔮 Future Enhancements
+Try other classification models (Random Forest, XGBoost)
+
+Perform feature engineering (interaction terms, polynomial features)
+
+Deploy as a REST API or streamlit web app
+
+Calibrate probability thresholds for risk-based segmentation
+
 
 
 ```bash
@@ -157,3 +259,5 @@ cd digit-recognition-tensorflow
 
 ## Contributors
 Ballar Neethu Kumari
+
+
